@@ -134,7 +134,7 @@ class PolylineController extends Controller
         $polyline = $this->polyline->find($id);
 
         $data = [
-            'title' => 'Edit Polyline',
+            'title' => ' Edit Polyline',
             'polyline' => $polyline,
             'id' => $id
         ];
@@ -224,7 +224,7 @@ class PolylineController extends Controller
         $polylines = $this->polyline->polylines();
 
         $data = [
-            'title' => 'Table Polyline',
+            'title' => ' Table Polyline',
             'polylines' => $polylines
         ];
 

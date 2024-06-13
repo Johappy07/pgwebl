@@ -5,40 +5,40 @@
     <div class="card shadow">
         <div class="card-header">
            <h3>Data Polyline</h3>
+        </div>
+        <div class="card-body">
+            <div class="mb-3"></div> <!-- Memberikan jarak ke bawah -->
+            <table class="table table-bordered table-striped" id="example">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Created at</th>
+                        <th>Updated at</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                @php $no = 1 @endphp
+                @foreach ($polylines as $p)
+                    @php
+                        $geometry = json_decode($p->geom);
+                    @endphp
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $p->name }}</td>
+                        <td>{{ $p->description }}</td>
+                        <td>{{ date_format($p->created_at, 'D, d M Y, H:i:s') }}</td>
+                        <td>{{ date_format($p->updated_at, 'D, d M Y, H:i:s') }}</td>
+                    </tr>
+                @endforeach
+                </tbody>
+            </table>
+            <div class="mt-3"></div> <!-- Memberikan jarak ke atas -->
+        </div>
     </div>
-    <div class="card-body"></div>
-    <table class="table table-bordered table-striped" id="example">
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Image</th>
-                <th>Created at</th>
-            </tr>
-        </thead>
-        </tbody>
-
-        @php $no = 1 @endphp
-        @foreach ($polylines as $p)
-            @php
-                $geometry = json_decode($p->geom);
-            @endphp
-            <tr>
-                <td>{{ $no++ }}</td>
-                <td>{{ $p->name }}</td>
-                <td>{{ $p->description }}</td>
-                <td>
-                    <img src="{{ asset('storage/images/' . $p->image) }}" alt="" width="200">
-                </td>
-                <td>{{ date_format($p->created_at, 'D, d M Y, H:i:s') }}</td>
-            </tr>
-        @endforeach
-        </tbody>
-    </table>
 </div>
-</div>
-
 @endsection
 
 @section('styles')

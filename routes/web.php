@@ -21,6 +21,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MapController::class, 'index'])->name('index');
 Route::get('/table', [MapController::class, 'table'])->name('table');
+Route::get('/landing', [MapController::class, 'landing'])->name('landing');
+Route::get('/map', [MapController::class, 'map'])->name('index-public');
+Route::get('/index-public', [MapController::class, 'indexPublic'])->name('index-public');
+
 
 // create point
 Route::post('/store-point', [PointController::class, 'store'])->name('store-point');
@@ -53,6 +57,7 @@ Route::patch('/update-polygon/{id}', [PolygonController::class, 'update'])->name
 
 
 Route::get('/dashboard', [ DashboardController ::class, 'index'] )->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/geojson', [DashboardController::class, 'getGeoJSON']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -64,5 +69,7 @@ Route::middleware('auth')->group(function () {
 Route::get('/table-point', [PointController::class, 'table'])->name('table-point');
 Route::get('/table-polyline', [PolylineController::class, 'table'])->name('table-polyline');
 Route::get('/table-polygon', [PolygonController::class, 'table'])->name('table-polygon');
+
+
 
 require __DIR__.'/auth.php';

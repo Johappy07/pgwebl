@@ -31,7 +31,6 @@
                             <p style="font-size: 28pt">{{$total_polygons}}</p>
                         </div>
                     </div>
-
                     <hr>
         <p>
             Anda login sebagai <span class="fw-bold">{{ Auth::user()->name }}</span> dengan email <span class="fst-italic">{{ Auth::user()->email }}</span>
@@ -39,7 +38,4 @@
                 </div>
             </div>
         </div>
-
-
-
 </x-app-layout>

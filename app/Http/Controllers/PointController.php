@@ -134,7 +134,7 @@ class PointController extends Controller
         $point = $this->point->find($id);
 
         $data = [
-            'title' => 'Edit Point',
+            'title' => ' Edit Point',
             'point' => $point,
             'id' => $id
         ];
@@ -224,7 +224,7 @@ class PointController extends Controller
         $points = $this->point->points();
 
         $data = [
-            'title' => 'Table Point',
+            'title' => ' Table Point',
             'points' => $points
         ];
 
