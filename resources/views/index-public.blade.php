@@ -117,8 +117,8 @@ var polyline = L.geoJson(null, {
 
         return {
             color: color, // Warna garis polilin
-            weight: 2, // Ketebalan garis polilin
-            opacity: 1 // Opasitas garis polilin
+            weight: 3, // Ketebalan garis polilin
+            opacity: 2 // Opasitas garis polilin
         };
     },
     onEachFeature: function (feature, layer) {

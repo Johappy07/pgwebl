@@ -32,7 +32,7 @@
                         <td>{{ $p->description }}</td>
                         <td>{{ $geometry->coordinates[1] . ', ' . $geometry->coordinates[0] }}</td>
                         <td>
-                            <img src="{{ asset('storage/images/' . $p->image) }}" alt="" width="400">
+                            <img src="{{ asset('storage/images/' . $p->image) }}" alt="" width="200">
                         </td>
                         <td>{{ date_format($p->created_at, 'D, d M Y, H:i:s') }}</td>
                     </tr>
