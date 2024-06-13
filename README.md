@@ -12,11 +12,11 @@ Platform ini digunakan untuk menampilkan visualisasi peta Kereta Api KRL, LRT, d
 ## Komponen Pembangun
 
 Platform ini dibangun menggunakan berbagai komponen, termasuk:
-- Database PHP MyAdmin
 - Library LeafletJS
 - Bootstrap
+- FontAwesome
 - File GeoJSON
-- Plugin peta
+- Terraformer
 
 ## Manfaat & Tujuan
 
@@ -47,10 +47,3 @@ Dengan menggunakan peta interaktif, pengguna dapat melihat rute, stasiun, dan in
 
 ## Link Project
 
-[https://amirulash.github.io/Pacitanku/](https://amirulash.github.io/Pacitanku/)
-
-## Cara Menjalankan
-
-1. Clone repositori ini ke komputer Anda:
-   ```bash
-   git clone https://github.com/username/railmap.git
