@@ -41,8 +41,18 @@ Dengan menggunakan peta interaktif, pengguna dapat melihat rute, stasiun, dan in
 <ul>
   <li>Landing page</li>
   <img src = "Homepage.png" width = "500"><br>
-  <img src = "public/image/landing2.png" width = "500"><br>
-   <li>Peta persebaran pariwisata</li><br><img src = "public/image/peta.png" width = "500"><br>
-   <li>Tabel</li><br><img src = "public/image/table.png" width = "500"><br>
+  <img src = "Homepage00.png" width = "500"><br>
+  <img src = "Homepage01.png" width = "500"><br>
+   <li>Jakarta Metropolita RailMap</li><br>
+   <img src = "peta.png" width = "500">
+   <img src = "peta00.png" width = "500">
+   <br>
+   <li>Tabel</li><br>
+   <img src = "tabel.png" width = "500">
+   <img src = "tabel00.png" width = "500">
+   <img src = "tabel01.png" width = "500">
+   <br>
+   <li>Fitur Peta</li><br><img src = "fitur.png" width = "500"><br>
+   
 ## Link Project
 
