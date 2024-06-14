@@ -1,7 +1,3 @@
-# Jakarta Metropolitan RailMap
-
-Platform ini digunakan untuk menampilkan visualisasi peta Kereta Api KRL, LRT, dan MRT di Jakarta, serta menyediakan informasi terkini dan rute perjalanan.
-
 ## Jakarta Metropolitan RailMap
 
 Platform ini digunakan untuk menampilkan visualisasi peta Kereta Api KRL, LRT, dan MRT di Jakarta, serta menyediakan informasi terkini dan rute perjalanan.
