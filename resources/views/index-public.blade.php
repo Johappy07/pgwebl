@@ -195,6 +195,8 @@ var overlayMaps = {
     "Batas Administrasi Metropolitan Jabodetabek": polygon
 };
 var layerControl = L.control.layers(null, overlayMaps).addTo(map);
+
+
  // Tambahkan geolocation control
  L.control.locate({
         position: 'topright',

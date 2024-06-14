@@ -80,27 +80,37 @@
         </div>
     </nav>
 
-    <!-- Modal -->
+<!-- Modal -->
 <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="infoModalLabel">Info</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 style="text-align: justify;">Fungsi dan Manfaat WebGIS Jakarta Metropolitan Railmap</h2>
+                <p style="text-align: justify;">WebGIS Jakarta Metropolitan Railmap adalah alat berbasis web yang dirancang untuk menampilkan sebaran titik stasiun dan jalur kereta di Jakarta. Sistem ini mencakup jalur KRL, LRT, dan MRT. Beberapa fungsi dan manfaat utama dari webGIS ini adalah:</p>
+                <ul style="text-align: justify;">
+                    <li><strong>Visualisasi Jalur Transportasi:</strong> Memudahkan pengguna untuk melihat dan memahami jaringan transportasi rel di Jakarta melalui peta interaktif.</li>
+                    <li><strong>Rencana Perjalanan:</strong> Membantu pengguna dalam merencanakan perjalanan mereka dengan menunjukkan lokasi stasiun dan rute yang tersedia.</li>
+                    <li><strong>Informasi Stasiun:</strong> Menyediakan informasi detail tentang stasiun, termasuk fasilitas yang tersedia, integrasi dengan moda transportasi lain, dan informasi penting lainnya.</li>
+                    <li><strong>Analisis Data Transportasi:</strong> Memungkinkan pemerintah dan pemangku kepentingan lainnya untuk menganalisis data terkait mobilitas, kemacetan, dan kebutuhan infrastruktur di masa depan.</li>
+                    <li><strong>Peningkatan Aksesibilitas:</strong> Membantu penduduk lokal dan wisatawan untuk lebih mudah mengakses sistem transportasi publik, mengurangi ketergantungan pada kendaraan pribadi dan mengurangi kemacetan.</li>
+                </ul>
+                <!-- Menambahkan gambar ke dalam modal -->
+                <h4 style="text-align: justify;">Infografis Perbedaan KRL, LRT dan MRT</h4>
+                <img src="info_kereta.jpg" alt="Peta Railmap Jakarta" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="modal-body">
-          <p> Nama: Johanes Berchmann Juvens Junior Pareira</p>
-          <p> NIM: 22/496923/SV/21050</p>
-          <p> Kelas: A</p>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-
-        </div>
-      </div>
     </div>
-  </div>
+</div>
+
+
+
 
     @yield('content')
     <!-- Leaflet JS -->
