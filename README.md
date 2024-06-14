@@ -2,9 +2,6 @@
 
 Platform ini digunakan untuk menampilkan visualisasi peta Kereta Api KRL, LRT, dan MRT di Jakarta, serta menyediakan informasi terkini dan rute perjalanan.
 
-## Link Video
-[Link Video: https://youtu.be/2Zk4T43GYFk?si=b1ldH3zafPUfoUqf](https://youtu.be/2Zk4T43GYFk?si=b1ldH3zafPUfoUqf)
-
 ## Jakarta Metropolitan RailMap
 
 Platform ini digunakan untuk menampilkan visualisasi peta Kereta Api KRL, LRT, dan MRT di Jakarta, serta menyediakan informasi terkini dan rute perjalanan.
@@ -41,8 +38,6 @@ Dengan menggunakan peta interaktif, pengguna dapat melihat rute, stasiun, dan in
 <ul>
   <li>Landing page</li>
   <img src = "Homepage.png" width = "500"><br>
-  <img src = "Homepage00.png" width = "500">
-  <img src = "Homepage01.png" width = "500">
   <br>
    <li>Jakarta Metropolitan RailMap</li><br>
    <img src = "peta.png" width = "500">
