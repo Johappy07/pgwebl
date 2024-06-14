@@ -54,4 +54,3 @@ Dengan menggunakan peta interaktif, pengguna dapat melihat rute, stasiun, dan in
    <img src = "location.png" width = "500">
    <br>
 ## Link Project
-
