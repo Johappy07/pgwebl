@@ -37,13 +37,12 @@ Platform ini menampilkan visualisasi peta untuk berbagai layanan kereta api di J
 
 Dengan menggunakan peta interaktif, pengguna dapat melihat rute, stasiun, dan informasi lainnya mengenai layanan kereta api di Jakarta.
 
-## Screenshot
-
-![Homepage Screenshot](path/to/homepage_screenshot.png)
-![Dashboard Screenshot](path/to/dashboard_screenshot.png)
-![Map Screenshot](path/to/map_screenshot.png)
-![User Table Screenshot](path/to/user_table_screenshot.png)
-![Edit Place Screenshot](path/to/edit_place_screenshot.png)
-
+<h2>Tangkapan layar komponen penting produk:</h2>
+<ul>
+  <li>Landing page</li>
+  <img src = "Homepage.png" width = "500"><br>
+  <img src = "public/image/landing2.png" width = "500"><br>
+   <li>Peta persebaran pariwisata</li><br><img src = "public/image/peta.png" width = "500"><br>
+   <li>Tabel</li><br><img src = "public/image/table.png" width = "500"><br>
 ## Link Project
 
